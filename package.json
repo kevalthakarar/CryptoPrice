@@ -1,0 +1,19 @@
+{
+  "name": "coindex",
+  "version": "1.0.0",
+  "description": "To get price of Bitcoin and other CryptCurrency",
+  "main": "index.js",
+  "bin": "./bin/coindex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keval Thakarar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "colors": "^1.4.0",
+    "commander": "^9.0.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^8.2.0"
+  }
+}
