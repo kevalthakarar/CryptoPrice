@@ -19,11 +19,16 @@ coindex key remove    // for removing API key
 
 Fetch Price of CryptoCurrency
 
-coindex check price --coin=BTC,ETH --cur=INR      // add any crypto and currency format
-ans: 
+command -      coindex check price --coin=BTC,ETH --cur=INR      // add any crypto and currency format
+
+ANS = 
+
 Coin: BTC (Bitcoin) | Price: ₹3,207,563.57 | Rank: 1
 Coin: ETH (Ethereum) | Price: ₹222,628.44 | Rank: 2
 
-coindex check price --coin=BTC,ETH --cur=USD
+command -       coindex check price --coin=BTC,ETH --cur=USD
+
+ANS = 
+
 Coin: BTC (Bitcoin) | Price: $42,415.91 | Rank: 1
 Coin: ETH (Ethereum) | Price: $2,943.61 | Rank: 2
