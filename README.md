@@ -21,12 +21,17 @@
 <b>command  -  coindex check price --coin=BTC,ETH --cur=INR </b> &emsp;&emsp;&emsp;&emsp;     // add any crypto and currency format<br>
 
 <b>ANS : </b><br>
-Coin: BTC (Bitcoin) | Price: ₹3,207,563.57 | Rank: 1 <br>
-Coin: ETH (Ethereum) | Price: ₹222,628.44 | Rank: 2 <br>
+<pre>Coin: <font color="#C4A000">BTC</font> (Bitcoin) | Price: <font color="#4E9A06">₹3,165,202.42</font> | Rank: <font color="#3465A4">1</font>
+Coin: <font color="#C4A000">ETH</font> (Ethereum) | Price: <font color="#4E9A06">₹215,444.17</font> | Rank: <font color="#3465A4">2</font></pre>
 
-<b>command -       coindex check price --coin=BTC,ETH --cur=USD </b> &emsp;&emsp;&emsp;&emsp;
+<b>command -       coindex check price --coin=BTC,ETH,USDT,BNB,DOGE,MATIC --cur=USD </b> &emsp;&emsp;&emsp;&emsp;
 
 <b>ANS : </b><br>
 
-Coin: BTC (Bitcoin) | Price: $42,415.91 | Rank: 1 <br>
-Coin: ETH (Ethereum) | Price: $2,943.61 | Rank: 2 <br>
+<pre>Coin: <font color="#C4A000">BTC</font> (Bitcoin) | Price: <font color="#4E9A06">$42,000.64</font> | Rank: <font color="#3465A4">1</font>
+Coin: <font color="#C4A000">ETH</font> (Ethereum) | Price: <font color="#4E9A06">$2,858.23</font> | Rank: <font color="#3465A4">2</font>
+Coin: <font color="#C4A000">USDT</font> (Tether) | Price: <font color="#4E9A06">$1.00</font> | Rank: <font color="#3465A4">3</font>
+Coin: <font color="#C4A000">BNB</font> (Binance Coin) | Price: <font color="#4E9A06">$393.25</font> | Rank: <font color="#3465A4">4</font>
+Coin: <font color="#C4A000">DOGE</font> (Dogecoin) | Price: <font color="#4E9A06">$0.15</font> | Rank: <font color="#3465A4">12</font>
+Coin: <font color="#C4A000">MATIC</font> (Polygon) | Price: <font color="#4E9A06">$1.63</font> | Rank: <font color="#3465A4">16</font>
+</pre>
