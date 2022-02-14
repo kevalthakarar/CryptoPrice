@@ -17,14 +17,14 @@
 3. coindex key remove &emsp;&emsp;&emsp;&emsp; for removing API key
 
 <h3>Fetch Price of CryptoCurrency</h3><br>
-
-<b>command  -  coindex check price --coin=BTC,ETH --cur=INR </b> &emsp;&emsp;&emsp;&emsp;     // add any crypto and currency format<br>
-
+<b>command</b>
+<pre>coindex check price --coin=BTC,ETH --cur=INR </pre>
 <b>ANS : </b><br>
 <pre>Coin: <font color="#C4A000">BTC</font> (Bitcoin) | Price: <font color="#4E9A06">₹3,165,202.42</font> | Rank: <font color="#3465A4">1</font>
 Coin: <font color="#C4A000">ETH</font> (Ethereum) | Price: <font color="#4E9A06">₹215,444.17</font> | Rank: <font color="#3465A4">2</font></pre>
 
-<b>command -       coindex check price --coin=BTC,ETH,USDT,BNB,DOGE,MATIC --cur=USD </b> &emsp;&emsp;&emsp;&emsp;
+<b>command</b><br>
+<pre>coindex check price --coin=BTC,ETH,USDT,BNB,DOGE,MATIC --cur=USD</pre>
 
 <b>ANS : </b><br>
 
